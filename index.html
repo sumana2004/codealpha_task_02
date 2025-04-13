@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Sumana's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Sumana</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="icon-div">
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/sumana-pal-77ba63257/" target="_blank">
+                            <img src="Image\icons\Linkedin.svg" alt="Linkedin">
+                        </a>
+                    </div>
+    
+                    <div class="icons">
+                        <a href="https://github.com/sumana2004" target="_blank">
+                            <img src="Image\icons\Github.svg" alt="Github">
+                        </a>
+                    </div>
+    
+                </div>
+                <a class="buttons" href="My-Resume.pdf" download="Resume_Sumana">
+                    <button class="btn">Download Resume</button>
+                </a>
+            </div>
+            <div class="rightSection">
+                <img src="Image/bg.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="Image\skills\developer.png" alt="">
+                    <div class="vertical-title">
+                        C & Java Basics (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Started my programming journey with C and Java, building a strong foundation in problem-solving,
+                        logic, and object-oriented programming.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Image\skills\html-css-logo.png" alt="">
+                    <div class="vertical-title">
+                        Frontend Basics – HTML & CSS (Jun–Jul'23)
+                    </div>
+                    <div class="vertical-desc">
+                        Discovered the world of web development by learning HTML and CSS. Designed my first webpages and
+                        learned how to bring structure and style to the browser.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Image\skills\JavaScript.png" alt="">
+                    <div class="vertical-title">
+                        Leveling Up with JavaScript (Aug–Sep'23)
+                    </div>
+                    <div class="vertical-desc">
+                        Stepped into interactive web development by learning JavaScript. Created dynamic websites and gained confidence in DOM manipulation and basic programming logic.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Image\skills\web-developer.png" alt="">
+                    <div class="vertical-title">
+                        Internship With CodSoft (2023–2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Completed my first internship as a web developer intern. Applied my frontend skills in projects and got hands-on experience in Front-End web development workflows.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Image\skills\web-developer.png" alt="">
+                    <div class="vertical-title">
+                        Internship With SystemTron (Mar–Apr'24)
+                    </div>
+                    <div class="vertical-desc">
+                        Took on a second internship where I polished my frontend skills, learned version control (Git), and explored deeper concepts like responsive design and website optimization.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Image\skills\python.png" alt="">
+                    <div class="vertical-title">
+                        Learning Python (Present or 2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Started Python for automation, scripting, and exploring backend development possibilities.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sumana's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; myportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'UI/UX Designer.', 'Creative Coder.', 'Open Source Contributor.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
